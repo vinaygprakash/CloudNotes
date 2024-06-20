@@ -25,7 +25,7 @@ mongoose.connect(mongoURL, {
 });
 
 app.use(cors({
-    origin: ["https://cloud-notes-frontend-liard.vercel.app"],
+    origin: "https://cloud-notes-frontend-liard.vercel.app",
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true
 }));

@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 
 import { ToastContainer, toast } from 'react-toastify';
-const host = 'https://cloud-notes-backend-mocha.vercel.app/api/auth/createuser'
+const host = 'https://cloudnotes-1.onrender.com/api/auth/createuser'
 //const host='http://localhost:3001/api/auth/createUser'
 
 export default function Signup() {

@@ -4,7 +4,7 @@ import React from 'react';
 import { toast } from 'react-toastify';
 
 const NoteState = (props) => {
-  const host = "https://cloud-notes-backend-mocha.vercel.app";
+  const host = "https://cloudnotes-1.onrender.com";
 
   const [notes, setnotes] = useState([]);
 
@@ -95,7 +95,7 @@ const AddNotefun = async (title, description, getAllnotes) => {
       throw new Error('Title and description are required');
     }
 
-    const url = 'https://cloud-notes-backend-mocha.vercel.app/api/notes/addnotes'; // Replace with your actual backend URL
+    const url = 'https://cloudnotes-1.onrender.com/api/notes/addnotes'; // Replace with your actual backend URL
     const token = window.localStorage.getItem('token');
     const response = await fetch(url, {
       method: 'POST',

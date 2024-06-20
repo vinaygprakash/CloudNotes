@@ -3,7 +3,7 @@
 // import Navbar from '../Navbar';
 // import { ToastContainer, toast } from 'react-toastify';
 // const host = 'http://localhost:3001/api/auth/login'
-const host = 'https://cloud-notes-backend-mocha.vercel.app/api/auth/login'
+const host = 'https://cloudnotes-1.onrender.com/api/auth/login'
 
 // export default function Login() {
 //     let navigate = useNavigate(); // useHistory hooks

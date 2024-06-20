@@ -2,7 +2,7 @@ import './profile.css';
 import Navbar from "../Navbar";
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-const host = 'https://cloud-notes-backend-mocha.vercel.app/api/auth/getuser'
+const host = 'https://cloudnotes-1.onrender.com/api/auth/getuser'
 
 const Profile = () => {
     const navigate = useNavigate();
