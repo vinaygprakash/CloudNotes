@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+i {
+  cursor: pointer;
+}
+
+/* Login form and reg form */
+.regestration {
+  border-radius: 7px;
+  width: 25%;
+  /* background-color: rgb(8 30 56); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border: 2px solid wheat;
+}
+.regestration span {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.regestration input {
+  height: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(66, 66, 66);
+  padding-left: 15px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.regestration input:focus {
+  border: 2px solid black;
+  box-shadow: none;
+}
+.regestration .Title {
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 23px;
+}
+.regestration .Title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 4px;
+  width: 85px;
+  background: #ff523b;
+}
+.Reg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./components/vinay.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.regestration button {
+  background: #ff523b;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 12px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+.regestration button:hover {
+  color: white;
+  cursor: pointer;
+  /* box-shadow: 0 0 20px 0px white; */
+}
+.links {
+  text-decoration: none;
+  font-weight: 600;
+}
+.Login {
+  width: 25%;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar input{
+  width: 60%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .regestration {
+    width: 80%;
+    height: 100%;
+    margin-top: 2125px;
+    margin-bottom: 25px;
+  }
+  .Reg {
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+  .searchbar input{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .nav-item{
+    margin-top: 15px;
+  }
+  .logoutbtn{
+    margin-top: 5px;
+  }
+}
+
+.vinay {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url("./components/vinay.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 70vh;
+}
+.navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 12;
+}
+.BTN {
+    transition: 0.5s;
+    border-radius: 8px;
+    color: white;
+    background: #ff523b;
+    outline: none;
+    border: none;
+    padding: 6px 25px;
+  }
+  .BTN:hover {
+    color: black;
+    outline: none;
+  }
+  .temp{    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url("./components/vinay.jpg");
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+  .btn:focus{
+    box-shadow: none;
+  }

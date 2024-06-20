@@ -1,0 +1,25 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profilediv{
+    border: 1px solid gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1% 1%;
+    border-radius: 5px;
+}
+.profilediv p{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: larger;
+}
+.profilediv span{
+    margin-bottom: 0;
+    font-weight: normal;    
+    opacity: 0.5;
+}

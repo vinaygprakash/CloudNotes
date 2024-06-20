@@ -1,0 +1,20 @@
+.addNotes label,h1{
+    color: white;
+}
+.addNotes{
+    width: 60%;
+    margin: 7% auto;    
+}
+.addNotes input:focus{
+    box-shadow: none;
+    border: 2px solid black;
+}
+.addNotes textarea:focus{
+    box-shadow: none;
+    border: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+    .addNotes{
+        width: 80%;
+    }
+}
