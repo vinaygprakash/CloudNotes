@@ -25,7 +25,7 @@ mongoose.connect(mongoURL, {
 });
 
 app.use(cors({
-    origin: "https://cloud-notes-frontend-liard.vercel.app",
+    origin: "https://6674a5fb3bf94ccede4ac5e3--gregarious-sawine-2e65c1.netlify.app/",
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true
 }));
