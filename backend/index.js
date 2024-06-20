@@ -24,7 +24,11 @@ mongoose.connect(mongoURL, {
     process.exit(1);
 });
 
-app.use(cors());
+app.use(cors({
+    origin: ["https://cloud-notes-frontend-liard.vercel.app"],
+    methods: ["POST", "GET", "DELETE", "PUT"],
+    credentials: true
+}));
 app.use(express.json());
 
 // Available routes 
