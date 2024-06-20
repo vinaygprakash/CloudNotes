@@ -3,7 +3,7 @@
 // import Navbar from '../Navbar';
 // import { ToastContainer, toast } from 'react-toastify';
 // const host = 'http://localhost:3001/api/auth/login'
-// //const host = 'https://e-note-book-backend.vercel.app/api/auth/login'
+const host = 'https://cloud-notes-backend-mocha.vercel.app/api/auth/login'
 
 // export default function Login() {
 //     let navigate = useNavigate(); // useHistory hooks
@@ -89,7 +89,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import { ToastContainer, toast } from 'react-toastify';
 
-const host = 'http://localhost:3001/api/auth/login';
+//const host = 'http://localhost:3001/api/auth/login';
 
 const Login = () => {
     let navigate = useNavigate(); // useHistory hooks
