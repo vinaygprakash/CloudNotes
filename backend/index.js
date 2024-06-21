@@ -24,11 +24,12 @@ mongoose.connect(mongoURL, {
     process.exit(1);
 });
 
-app.use(cors({
-    origin: "https://6674a5fb3bf94ccede4ac5e3--gregarious-sawine-2e65c1.netlify.app/",
-    methods: ["POST", "GET", "DELETE", "PUT"],
-    credentials: true
-}));
+app.use(cors(
+    {
+        origin: ['http://localhost:3000', 'http://localhost:3001'],
+        credentials: true,
+    }
+));
 app.use(express.json());
 
 // Available routes 
