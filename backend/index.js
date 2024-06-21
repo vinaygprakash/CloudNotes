@@ -26,7 +26,7 @@ mongoose.connect(mongoURL, {
 
 app.use(cors(
     {
-        origin: ['http://localhost:3000', 'http://localhost:3001'],
+        origin: ['https://frontend-cpfztv5af-vinay-prakashs-projects.vercel.app', 'http://localhost:3001'],
         credentials: true,
     }
 ));
